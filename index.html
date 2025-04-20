@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Inventory Homepage</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Background image */
+        .background {
+            background-image: url('medicine.jpg'); /* Replace 'medicine.jpg' with your image file path */
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Overlay for readability */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            height: 100%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        /* Header section */
+        header {
+            padding: 20px;
+            font-size: 24px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        /* Navigation bar */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        /* Welcome content */
+        .welcome {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .welcome h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .welcome p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+
+        /* Footer */
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="overlay">
+            <!-- Header -->
+            <header>
+                Medicine Inventory System
+            </header>
+            
+
+            <!-- Navigation Bar -->
+            <nav>
+                <a href="admin.html">Admin</a>
+                <a href="signup.html">Signup</a>
+                <a href="login.php">Login</a>
+                <a href="fetch.php">Inventory</a>
+                <a href="contact_us.html">Contact Us</a>
+            </nav>
+
+            <!-- Welcome Section -->
+            <div class="welcome">
+                <h1>Welcome to the Medicine Inventory System</h1>
+                <p>Manage your medicine inventory efficiently and stay up-to-date with stock, sales, and customer information.</p>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                &copy; 2025 Medicine Inventory System. All Rights Reserved.
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
